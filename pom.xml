@@ -264,13 +264,12 @@
                 <terse>false</terse>
                 <echo>true</echo>
                 <debug>true</debug>
-                <glassfishDirectory>/glassfish4/glassfish/</glassfishDirectory>
+                <glassfishDirectory>/opt/glassfish4/glassfish/bin/</glassfishDirectory>
                 <user>admin</user>
                 <adminPassword>admin</adminPassword>
                 <domain>
                     <name>domain-1</name>
                     <host>52.40.191.4</host>
-                    
                     <adminPort>4848</adminPort>
                 </domain>
                 <components>
