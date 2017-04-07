@@ -270,6 +270,7 @@
                 <domain>
                     <name>domain-1</name>
                     <host>52.40.191.4</host>
+                    
                     <adminPort>4848</adminPort>
                 </domain>
                 <components>
