@@ -257,8 +257,32 @@
             </plugin>
              -->
             <!-- https://mvnrepository.com/artifact/kg.apc/jmeter-plugins-standard -->            
-
+        <plugin>
+            <groupId>org.glassfish.maven.plugin</groupId>
+            <artifactId>maven-glassfish-plugin</artifactId>
+            <configuration>
+                <terse>false</terse>
+                <echo>true</echo>
+                <debug>true</debug>
+                <glassfishDirectory>/glassfish4/glassfish/</glassfishDirectory>
+                <user>admin</user>
+                <adminPassword>admin</adminPassword>
+                <domain>
+                    <name>domain-1</name>
+                    <host>52.40.191.4</host>
+                    <adminPort>4848</adminPort>
+                </domain>
+                <components>
+                    <component>
+                        <name>cargo-tracker</name>
+                        <artifact>target/cargo-tracker.war</artifact>
+                    </component>
+                </components>
+            </configuration>
+        </plugin>
+   
         </plugins>
+      
     </build>
 
     <profiles>
