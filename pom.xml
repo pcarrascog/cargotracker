@@ -20,7 +20,9 @@
         <webapp.graphTraversalUrl>http://localhost:8080/cargo-tracker/rest/graph-traversal/shortest-path</webapp.graphTraversalUrl>
         <selenium.version>[3.2.0,4.0.0)</selenium.version>
     </properties>
-
+    
+    
+    
     <!-- We need to use the PrimeFaces repository -->
     <repositories>
         <repository>
